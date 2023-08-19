@@ -739,9 +739,7 @@ input {
   margin-bottom: 24px;
 }
 .modal-form-checkbox-label {
-  /* display: flex;
-  align-items: center;
-  gap: 8px; */
+  display: block;
   margin-bottom: 24px;
   font-size: 12px;
   line-height: 1.17;
@@ -797,7 +795,7 @@ input {
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
-  font-family: 'Roboto, sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500px;
   line-height: 1.5;
