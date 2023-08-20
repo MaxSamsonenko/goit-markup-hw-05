@@ -769,6 +769,9 @@ input {
   border: none;
   fill: var(--light-accent);
 }
+.modal-form-checkbox:focus + .modal-form-checkbox-label > .custom-checkbox {
+  border: 1px solid var(--pressed-state);
+}
 
 .modal-form-btn {
   display: block;
